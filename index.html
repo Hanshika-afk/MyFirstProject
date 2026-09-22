@@ -4,69 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile Clothing Store</title>
-
-    <script>
-        // ⬇️ APNA WHATSAPP NUMBER YAHA BADLEIN (Put your 10 digit number here) ⬇️
-        const PHONE_NUMBER = "7014011890"; 
-    </script>
-
     <style>
-        body { font-family: sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; text-align: center; }
+        body { font-family: sans-serif; margin: 0; padding: 0; background-color: #f4f4f9; text-align: center; }
         header { background-color: #111; color: #fff; padding: 2rem; }
         .container { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; }
         .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
-        .product-card { background: #fff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 1.5rem; }
+        .product-card { background-color: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
         .product-card img { max-width: 100%; height: 250px; object-fit: cover; border-radius: 4px; }
-        .price { font-size: 1.2rem; color: #e44d26; font-weight: bold; margin: 1rem 0; }
-        .order-btn { display: inline-block; background-color: #25D366; color: white; text-decoration: none; padding: 0.8rem 1.5rem; border-radius: 5px; font-weight: bold; cursor: pointer; }
-        footer { padding: 2rem; background: #111; color: #ccc; margin-top: 4rem; }
+        .price { font-size: 1.2rem; color: #d32f2f; font-weight: bold; margin: 1rem 0; }
+        .order-btn { display: inline-block; padding: 0.8rem 1.5rem; background-color: #25D366; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; cursor: pointer; border: none; }
+        footer { padding: 2rem; background: #111; color: #ccc; margin-top: 2rem; }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Mobile Clothing Co.</h1>
+        <h1>Mobile Clothing Store</h1>
         <p>Apne phone ko dein ek stylish aur naya look!</p>
     </header>
 
     <div class="container">
         <div class="product-grid">
-            
+
             <!-- Product 1 -->
             <div class="product-card">
-                <img src="images/dmitry-kropachev-8BgYmTy1GHo-unsplash.jpg">
+                <img src="dmitry-kropachev-8BgYmTy1GHo-unsplash.jpg" alt="Premium Silicone Case">
                 <h3>Premium Silicone Case</h3>
-                <div class="price">₹299</div>
-                <button onclick="window.open('https://wa.me' + PHONE_NUMBER + '?text=Hi, I want to order Premium Silicone Case')" class="order-btn">
-                    WhatsApp Par Order Karein
-                </button>
+                <div class="price">₹499</div>
+                <button class="order-btn" onclick="window.open('https://wa.me, I want to order Premium Silicone Case')">WhatsApp Par Order Karein</button>
             </div>
 
             <!-- Product 2 -->
             <div class="product-card">
-                <img src="images/lucas-chizzali-K_JK5mpStl0-unsplash.jpg"> 
+                <img src="lucas-chizzali-K_JK5mpStl0-unsplash.jpg" alt="Printed Hard Case">
                 <h3>Printed Hard Case</h3>
-                <div class="price">₹399</div>
-                <button onclick="window.open('https://wa.me' + PHONE_NUMBER + '?text=Hi, I want to order Printed Hard Case')" class="order-btn">
-                    WhatsApp Par Order Karein
-                </button>
+                <div class="price">₹599</div>
+                <button class="order-btn" onclick="window.open('https://wa.me, I want to order Printed Hard Case')">WhatsApp Par Order Karein</button>
             </div>
 
             <!-- Product 3 -->
             <div class="product-card">
-               <img src="images/daniel-akselrod-_fmKybc1fEI-unsplash.jpg" alt="Transparent Clear Case">
+                <img src="daniel-akselrod-_fmKybc1fEI-unsplash.jpg" alt="Transparent Clear Case">
                 <h3>Transparent Clear Case</h3>
-                <div class="price">₹199</div>
-                <button onclick="window.open('https://wa.me' + PHONE_NUMBER + '?text=Hi, I want to order Transparent Clear Case')" class="order-btn">
-                    WhatsApp Par Order Karein
-                </button>
+                <div class="price">₹399</div>
+                <button class="order-btn" onclick="window.open('https://wa.me, I want to order Transparent Clear Case')">WhatsApp Par Order Karein</button>
             </div>
 
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2026 Mobile Clothing Co. | Powered by GitHub Pages</p>
+        <p>&copy; 2026 Mobile Clothing Store. All rights reserved.</p>
     </footer>
 
 </body>
